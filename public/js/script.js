@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./assets/js/customize/parallax.js":
+/*!*****************************************!*\
+  !*** ./assets/js/customize/parallax.js ***!
+  \*****************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery-parallax.js */ \"./node_modules/jquery-parallax.js/parallax.min.js\");\n/* harmony import */ var jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0__);\n\n\n$(function(){\n  $('.basic-parallax-window').parallax();\n});\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./assets/js/customize/parallax.js?");
+
+/***/ }),
+
 /***/ "./assets/js/script.js":
 /*!*****************************!*\
   !*** ./assets/js/script.js ***!
@@ -94,7 +106,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery-parallax.js */ \"./node_modules/jquery-parallax.js/parallax.min.js\");\n/* harmony import */ var jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery_parallax_js__WEBPACK_IMPORTED_MODULE_0__);\n\n\n$(function(){\n  $('.basic-parallax-window').parallax();\n});\n\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./assets/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _customize_parallax_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./customize/parallax.js */ \"./assets/js/customize/parallax.js\");\n\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
 
 /***/ }),
 
