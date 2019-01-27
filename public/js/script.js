@@ -98,6 +98,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 
 /***/ }),
 
+/***/ "./assets/js/customize/script.js":
+/*!***************************************!*\
+  !*** ./assets/js/customize/script.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("/* WEBPACK VAR INJECTION */(function($) {$(function(){\n\tsetTimeout(movementHighlow());\n\n\tfunction movementHighlow() {\n\t\t$(\".recruit-circle\").animate({\n\t\t\tmarginTop:\"+=8px\"\n\t\t},1000).animate({\n\t\t\tmarginTop:\"-=8px\"\n\t\t});\n\t\tsetTimeout(movementHighlow(), 1600);\n\t}\n});\n\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")))\n\n//# sourceURL=webpack:///./assets/js/customize/script.js?");
+
+/***/ }),
+
 /***/ "./assets/js/script.js":
 /*!*****************************!*\
   !*** ./assets/js/script.js ***!
@@ -106,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _customize_parallax_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./customize/parallax.js */ \"./assets/js/customize/parallax.js\");\n\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _customize_parallax_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./customize/parallax.js */ \"./assets/js/customize/parallax.js\");\n/* harmony import */ var _customize_script_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./customize/script.js */ \"./assets/js/customize/script.js\");\n/* harmony import */ var _customize_script_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_customize_script_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./assets/js/script.js?");
 
 /***/ }),
 
