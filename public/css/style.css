@@ -7303,3 +7303,11 @@ a.text-dark:hover, a.text-dark:focus {
 .pb150 {
   padding-bottom: 150px !important; }
 
+.secondary_content {
+  font-family: serif; }
+  .secondary_content h2 {
+    font-size: 3rem; }
+  .secondary_content p {
+    line-height: 2.5;
+    font-family: -webkit-body; }
+
