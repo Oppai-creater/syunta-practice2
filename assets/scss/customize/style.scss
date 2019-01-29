@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a  {
+	text-decoration: none;
+}
+.main-visual{
+	background-image: url("../img/main01.jpg");
+	background-size: cover;
+	height: 650px;
+	text-align: center;
+	font-family: serif;
+}
+.main-visual .section-title{
+	font-size: 60px;
+	padding-top: 270px;
+	color: #fff;
+	text-shadow: 1px 2px 3px #000;
+}
+.recruit-circle{
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 130px;
+	width: 130px;
+	background-color: #fff;
+	border-radius: 50%;
+	color: red;
+	font-size: 20px;
+	line-height: 25px;
+}
+.recruit-circle .recruit1{
+	padding-top: 30px;
+}
+.recruit-circle .link-icon{
+	font-size: 50px;
+	margin-top: -10px;
+}
